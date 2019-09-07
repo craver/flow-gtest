@@ -1,0 +1,39 @@
+.TestBox {
+    background-color: #bbeffd;
+}
+
+.footer {
+    //position:absolute;
+    //bottom:0;
+    width:100%;
+    height:100px;
+
+    background-color: #141810;
+ }
+
+.menu {
+    width:100%;
+}
+
+body {
+    margin: 0px;
+    display:f;
+    min-height: 100%;
+    background-color: rgb(195, 195, 212);
+}
+
+.imageCell {
+    width: 100px;
+    height: 100px;
+    margin: 10pt;
+
+    background-color: aqua
+}
+
+.gallleryContainer {
+    display: flex;
+    flexWrap: wrap;
+    justifyContent: space-around;
+    overflow: hidden;
+    background-color: grey
+}
