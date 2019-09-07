@@ -1,13 +1,15 @@
-import React from "react"
-import { Router, Link, Location } from "@reach/router"
-import { TransitionGroup, CSSTransition } from "react-transition-group"
+import React from "react";
+import { Router, Link, Location } from "@reach/router";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import "./main.css"
 import Footer from '../components/Footer';
+import Menu from '../components/Menu';
 
 const App = () => (
   <div className="app">
+     <Menu></Menu>
     <nav className="nav">
       <Link to="/">Page 1</Link> <Link to="page/2">Page 2</Link>
       {` `}
@@ -45,7 +47,7 @@ const Page = props => (
     style={{ background: `hsl(${props.page * 75}, 60%, 60%)` }}
   >
     {props.page}
-
+   
     <Button >test</Button>
     <Button variant="contained" color="secondary" >test</Button>
 
